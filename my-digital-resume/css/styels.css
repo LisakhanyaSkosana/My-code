@@ -1,50 +1,31 @@
 h1{ 
-   font-family: Segoe UI;
-   font-size: 2rem;
-   color: black; 
-   padding-inline: 300px;
+   font-family: 'Segoe UI', sans-serif;
+   font-size: 100%;
+   background-image: url(https://img.freepik.com/free-vector/orange-triangle-background-3d-design_23-2148397934.jpg);
+   width: 100;
+   height: 80vh;
+   margin-bottom: 14px;
+   margin-top: 15px;
+   box-sizing: border-box;
+   color: cornsilk;
+   background-color: bisque;
+   align-items: left;
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+   
 }
 
 h2,h3,h4,h5{
               font-size: x-large;
               font-family: Times, 'Times New Roman';
-              color: antiquewhite;
+              color: darkorange;
 }
 p{   
     font-size: medium;
     font-family:sans-serif;
 
 }
-
- header{
-    width: 100%;
-    height: 100vh;
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 0 12%;
-    font-size: 15px;
-    line-height: 25px;
-    border-radius: 5px;
-   }
-
-nav{
-   width: 50%;
-   height: 100vh;
-   padding: 0 10%;
-  }
-
-nav li{
-    width: 16px;
-    height: 16px;
-    color: antiquewhite;
-    display: inline-block;
-    margin: 10px 30px;
-    align-items: center;
-    padding: 20px;
-    }
-
-
 body{ 
     background-color: peru;
     font-family: 'Roboto Mono';
@@ -54,8 +35,38 @@ body{
     box-sizing: border-box;
 }
 
+section{
+    font-size: medium;
+    font-family: sans-serif;
+}
+p{   
+    font-size: small;
+    font-family:sans-serif;
 
+}
 
-
-
+.static{
+    position: static;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    padding-left: 20px;
     
+}
+
+
+.static {
+    position: static;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    padding-left: 20px;
+
+}
+
+.sticky{
+    background-color: antiquewhite;
+    position: sticky;
+    bottom: 0;
+    margin:0;
+    text-align: center;
+    border: 0px;
+}
