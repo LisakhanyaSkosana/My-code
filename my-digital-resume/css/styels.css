@@ -35,10 +35,18 @@ body{
     box-sizing: border-box;
 }
 
+ body{
+    background-image: url(https://img.favpng.com/2/21/17/euclidean-vector-mobile-phone-photography-illustration-png-favpng-xAHVijss1AbtJPM2bKHf5qBaa.jpg);
+    
+}
+
+
+
 section{
     font-size: medium;
     font-family: sans-serif;
 }
+
 p{   
     font-size: small;
     font-family:sans-serif;
