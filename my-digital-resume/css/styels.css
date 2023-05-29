@@ -40,6 +40,21 @@ body{
     
 }
 
+    body {
+        background-color: lightblue;
+    }
+@media only screen and (min-width: 600px) {
+    body { background-color: red; }
+ } 
+ @media only screen and (min-width: 768px) {
+    body { background-color: green; }
+ } 
+ @media only screen and (min-width: 992px) {
+    body { background-color: yellow; }
+ } 
+ @media only screen and (min-width: 1200px) {
+    body { background-color: orange; }
+ }
 
 
 section{
